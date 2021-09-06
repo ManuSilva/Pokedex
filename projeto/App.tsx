@@ -41,7 +41,16 @@ function Clock(props: ClockProps) {
       <StatusBar style="auto" />
     </View>
   );
-}*/
+}
+
+ export default function App(): JSX.Element {
+
+   return (
+    <Clock date={new Date()} />
+     );
+ }
+
+*/
 
 /*******************************************************************
 *                 Atualizar horas com State                        *
