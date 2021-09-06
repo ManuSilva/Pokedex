@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-/*
+/* teste clone
 //---> Hello Word
 export default function App() {
   return (
