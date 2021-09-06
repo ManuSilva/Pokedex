@@ -27,7 +27,7 @@ function Clock(props: ClockProps) {
     <View style={styles.container}>
     
       <Text style={{ fontSize: 49, color: "green" }}>Teste Relógio</Text>
-      <Text style={{ fontSize: 39, color: "aqua" }}>
+      <Text style={{ fontSize: 39, color: "pink" }}>
         São {props.date.toLocaleTimeString()}.
       </Text>
       <StatusBar style="auto" />
